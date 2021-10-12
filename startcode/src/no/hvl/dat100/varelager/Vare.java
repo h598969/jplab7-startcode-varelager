@@ -1,12 +1,15 @@
 package no.hvl.dat100.varelager;
 
 public class Vare {
-
-	// TODO - objektvariable
+	private int vareNr;
+	private String navn;
+	private double pris;
 	
 	public Vare(int varenr, String navn, double pris) {
 		
-		throw new TODO("Vare"); // REMOVE ME WHEN DONE
+		vareNr = varenr;
+		this.navn = navn;
+		this.pris = pris;
 	}
 	
 	public int getVarenr() {
